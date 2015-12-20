@@ -1,0 +1,29 @@
+{
+  "name": "halyard-hipchat",
+  "version": "0.1.0",
+  "author": "akerl",
+  "summary": "Configure Hipchat",
+  "license": "MIT",
+  "source": "https://github.com/halyard/puppet-hipchat",
+  "project_page": "https://github.com/halyard/puppet-hipchat",
+  "issues_url": "https://github.com/halyard/puppet-hipchat/issues",
+  "dependencies": [
+    {
+      "name": "halyard/homebrew",
+      "version_requirement": "1.13.x"
+    },
+    {
+      "name": "halyard/brewcask",
+      "version_requirement": "0.1.x"
+    }
+  ],
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "Darwin",
+      "operatingsystemmajrelease": [
+        "14",
+        "15"
+      ]
+    }
+  ]
+}
